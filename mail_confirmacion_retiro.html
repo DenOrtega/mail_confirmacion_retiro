@@ -1,0 +1,732 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Mail Confirmacion Retiro</title>
+</head>
+
+<body>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td bgcolor="#CCCCCC" height="20" width="800"></td>
+    </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<td height="44" width="50"  bgcolor="#CCCCCC"></td>
+  <td width="52">
+
+    <td><a href="#" target="_blank"><img src="./images/header_01.jpg" width="127" height="105" style="display:block; border:none;" /></a></td>
+    <td><a href="#" target="_blank"><img src="./images/header_02muebles.jpg" width="80" height="105" style="display:block; border:none;" /></a></td>
+    <td><a href="#" target="_blank"><img src="./images/header_03colchones.jpg" width="89" height="105" style="display:block; border:none;" /></a></td>
+    <td><a href="#" target="_blank"><img src="./images/header_04lineablanca.jpg" width="105" height="105" style="display:block; border:none;" /></a></td>
+    <td><a href="#" target="_blank"><img src="./images/header_05johnson.jpg" width="202" height="105" style="display:block; border:none;" /></a></td>
+    <td width="50">
+	<td height="40" width="48"  bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="40" width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+        <td><img style="border:none;" src="./images/title_confirmacion_retiro.gif" width="633"
+                 height="97"/></td>
+        <td width="33"></td>
+        <td height="40" width="48" id="fondo_izq" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <td height="32" width="48" bgcolor="#CCCCCC"></td>
+    <td width="33"></td>
+    <td height="32"><p style="font-family:Tahoma,Geneva,sans-serif;font-size:13px;font-weight:bold;color:#333">
+        Estimado(a) {nombre_cliente}</p>
+
+        <p style="font-family:Tahoma,Geneva,sans-serif;font-size:12px;color:#333">
+            Hemos confirmado tu orden, pronto recibir&aacute;s tu boleta electr&oacute;nica por e-mail y te avisaremos cuando tu
+            compra est&eacute; lista para ser retirada. <strong style="font-weight:bold; color:#333333;">Recuerda que debes
+            haber recibido el e-mail de retiro antes de acercarte a la tienda.</strong></p>
+    </td>
+    <td width="33"></td>
+    <td height="32" width="48" id="fondo_der" bgcolor="#CCCCCC"></td>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <td width="48" bgcolor="#CCCCCC"></td>
+    <td width="33"></td>
+    <td>
+        <div style="height:53px; width:633px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#f27925; font-size:20px">
+            Detalles de tu orden
+        </div>
+    </td>
+    <td width="33"></td>
+    <td width="48" id="fondo_der" bgcolor="#CCCCCC"></td>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="40" width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+        <td>
+
+            <table width="100%" border="0" cellspacing="5" cellpadding="0"
+                   style="background-color:#eeeeee; padding-bottom:20px;">
+                <tbody>
+                <tr>
+                    <td width="45%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            N&uacute;mero de Orden de Compra</p>
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {nro_orden}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="39%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            Direcci&oacute;n de Entrega</p>
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {direcc_desp}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="39%">
+                        <!--
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            Nombre de Quien Retira</p>
+                        -->
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {nom_destinatario}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="39%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            Tel&eacute;fono de contacto</p>
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {tel_contacto}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="39%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            Forma de Pago
+                        </p>
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {desc_forma_pago}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="39%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-left:20px; margin-bottom: -5px;">
+                            Cuotas</p>
+                    </td>
+                    <td width="61%">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; margin-bottom: -5px;">
+                            {numero_cuotas}</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+        </td>
+        <td width="33"></td>
+        <td height="40" width="48" id="fondo_izq" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td></td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#999;">
+                Si la direcci&oacute;n de entrega no es correcta comun&iacute;cate de inmediato al <a
+                    style="text-decoration:none; color:#f27925; font-weight:bold" href="#">600 400 8000</a> o cont&aacute;ctanos en <a style="text-decoration:underline; color:#f27925; text-decoration:none;">www.paris.cl</a>
+            </p>
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+            <div style="height:53px; width:633px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#f27925; font-size:20px">
+                Productos de tu orden
+            </div>
+
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+            <table width="100%" cellspacing="0" cellpadding="15" style="border:2px solid #eeeeee;">
+                <tbody>
+                <tr>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            C&oacute;digo</p>
+                    </td>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            Producto</p>
+                    </td>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            Entrega<br>Estimada</p>
+                    </td>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            Cantidad</p>
+                    </td>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            Precio Unitario</p>
+                    </td>
+                    <td align="center" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; font-weight:bold; color:#333; margin-top: -5px; margin-bottom: -5px;">
+                            Monto Total</p>
+                    </td>
+                </tr>
+                <!-- BEGIN DYNAMIC: productos -->
+                <tr>
+                    <td align="center" bgcolor="#eeeeee" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{sku}</p>
+                    </td>
+                    <td align="center" bgcolor="#eeeeee" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{descripcion}</p>
+                    </td>
+                    <td align="center" bgcolor="#eeeeee" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{fec_entrega}</p>
+                    </td>
+                    <td align="center" bgcolor="#eeeeee" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{cantidad}</p>
+                    </td>
+                    <td align="center" bgcolor="#eeeeee" style="border:1px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{precio}</p>
+                    </td>
+                    <td align="center" bgcolor="#eeeeee" style="border:2px solid #eeeeee;">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333">{monto_total}</p>
+                    </td>
+                </tr>
+                <!-- END DYNAMIC: productos -->
+                </tbody>
+            </table>
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<!-- BEGIN DYNAMIC: od_despacho -->
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td height="30" width="638">
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td style="height:40px; background-color:#f27925; color: #FFF; text-align:center">
+            <img style="float: left; margin: 8px 10px 0px 26%; border:none; width:auto; height:30px" src="./images/ico_store_mobile.png" />
+            <p style="text-transform:uppercase; text-align:center; font-family:Tahoma, Geneva, sans-serif; font-size:14px; float:left;">Sigue el estado de tu despacho</p>
+        </td>
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td style="height:50px; background-color:#eeeeee;">
+            <p style="font-family:Tahoma, Geneva, sans-serif; color:#666666; font-size:13px; margin-left:20px; float:left;"><strong>{orden_entrega_sentence}</strong></p>
+
+            <a style="font-family:Tahoma, Geneva, sans-serif; color:#666666; font-size:13px; margin-left:20px; float:left; margin-top:12px; color:#f27925; text-decoration:none;" target="_blank"><strong>{nro_despacho}</strong></a>
+
+            <a style="font-family:Tahoma, Geneva, sans-serif; color:#666666; font-size:13px; margin-right:20px; float:right; margin-top:12px; color:#f27925; text-decoration:none;" href="{ini_http}/webapp/wcs/stores/servlet/AjaxTrackingOrderDetailView?catalogId=40000000629&tab=tienda&fromHeader=true&langId=-5&storeId=10801"
+               target="_blank"><strong>Ir a estado de entrega ></strong></a>
+        </td>
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+
+</table>
+<!-- END DYNAMIC: od_despacho -->
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td height="30" width="638">
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+
+            <table width="633" border="0" align="right" cellpadding="0" cellspacing="0">
+                <tbody>
+                <tr>
+                    <td colspan="2" height="40"></td>
+                </tr>
+                <tr>
+                    <td width="525" align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            SubTotal</p>
+                    </td>
+                    <td width="108" align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            {subtotal}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            GiftCard</p>
+                    </td>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            {dscto_giftcard}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            Costo de entrega</p>
+                    </td>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; margin-top:1px; margin-bottom:1px">
+                            {costo_entrega}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; font-weight:bold; margin-top:1px; margin-bottom:1px">
+                            Total</p>
+                    </td>
+                    <td align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; color:#333; line-height:1.5em; font-weight:bold; margin-top:1px; margin-bottom:1px">
+                            {total_compra}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        <p style="font-family:Tahoma,Geneva,sans-serif; font-size:12px; color:#f27925; padding-top:10px">
+                            <!-- BEGIN DYNAMIC: nectar -->
+                            Con esta compra acumulas: <strong>{base} puntos **</strong><br>
+                            <!-- END DYNAMIC: nectar -->
+                            <!-- BEGIN DYNAMIC: fpago -->
+                            Bono de puntos al pagar con Tarjeta M&aacute;s:<strong>{fpago} puntos </strong><br>
+                            <strong>Total puntos : {tot_nectar}</strong></p>
+                            <!-- END DYNAMIC: fpago -->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td height="20" width="638">
+
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+            <!-- BEGIN DYNAMIC: nectar -->
+            <p style="font-family:Tahoma,Geneva,sans-serif; font-size:12px; color:#999">**Los puntos ser&aacute;n
+                abonados dentro de 3 d&iacute;as h&aacute;biles desde el momento de la compra. El bono de puntos ser&aacute;
+                cargado al RUT titular hasta en 15 d&iacute;as h&aacute;biles desde el momento de la compra.</p>
+            <!-- END DYNAMIC: nectar -->
+            <p style="font-family:Tahoma,Geneva,sans-serif; font-size:12px; color:#999">Cuando retires tu compra te
+                pedimos que revises tus productos para verificar que se encuentran en buenas condiciones. Tu firma y RUT
+                en la gu&iacute;a de despacho avalar&aacute;n que no existe ning&uacute;n
+                problema.</p>
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="32"></td>
+
+        <td height="20" width="200" valign="top">
+
+            <div style="height:53px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#f27925; font-size:20px">
+                Ticket de Cambio
+            </div>
+
+            <p style="font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#999;">
+                Imprime este correo, recorta el ticket de la derecha por la zona punteada y util&iacute;zalo si necesitas realizar el cambio de cualquiera de los productos asociados a esta compra.
+                </br></br>
+                Si tienes dudas sobre las pol&iacute;ticas de cambios, ingresa a la secci&oacute;n ayuda de nuestro sitio web <a style="text-decoration:underline; color:#f27925; text-decoration:none;"
+                                                                                                                                 href="http://www.paris.cl" target="_blank">www.paris.cl</a>
+            </p>
+
+            <p><a style="display:block; margin:0 auto; text-align:center; padding:4% 5%; background-color:#f27925; color:rgba(255,255,255,1); font-weight:bold; width:60%; font-family:Tahoma, Geneva, sans-serif; margin-top:20px; text-decoration:none" href="javascript:window.print()">Imprimir</a>
+
+
+            </p>
+            <p>&nbsp;</p></td>
+
+        <td height="20" width="438">
+
+            <div style="width: 84%;
+border: 2px dashed #f27925;
+padding: 15px;
+margin-left: 8%;
+margin-right: 8%;">
+
+                <img style="margin-left:-30px;" src="./images/corte.gif" width="30" height="30" />
+
+                <img src="http://www.paris.cl/emails/ticket_title.jpg" width="284" height="73" />
+
+                <p style="height: 27px;
+display: block;
+background-color: rgb(242, 121, 37);
+color: rgb(255, 255, 255);
+width: 103%;
+overflow: visible;
+margin-left: -4%;
+padding: 2% 0px 0px 5%;
+margin-top: 0px; font-family:Tahoma,Geneva,sans-serif;">Ticket para cambio de mercaderia</p>
+
+                <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; margin: 5px 0px; font-weight:bold;">
+                    <span style="color:#999">Documento electr&oacute;nico: </span>{num_boleta}
+                </p>
+
+                <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; margin: 5px 0px; font-weight:bold;">
+                    <span style="color:#999">Fecha de compra:</span> {tc_fecha}
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <!--<span style="color:#999">Hora:</span> 00:00-->
+                </p>
+
+                <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; margin: 5px 0px; font-weight:bold;">
+                    <span style="color:#999">Tienda:</span> {tc_tiendaCtl}
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color:#999">Terminal:</span> {tc_terminal}
+                </p>
+
+                <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; margin: 5px 0px; font-weight:bold;">
+                    <span style="color:#999">Transacci&oacute;n:</span> {tc_transaccion}
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <!--<span style="color:#999">Vendedor:</span> 000-->
+                </p>
+
+                <img style="margin-top:10px;" src="http://www.paris.cl/emails/bar_code.jpg" width="360" height="84" />
+
+                <p style="font-family:Tahoma,Geneva,sans-serif; font-size:13px; text-align:center; margin-top:5px;">Este documento aplica en cualquier caja de la tienda<br>y tiene una vigencia de 30 d&iacute;as</p>
+
+            </div>
+
+        </td>
+
+        <td width="32"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td height="30" width="638">
+
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td width="48" bgcolor="#CCCCCC"></td>
+        <td width="33"></td>
+
+        <td>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+               <tr>
+        <td colspan="2" style="height:40px; background-color:#f27925; color: #FFF; text-align:center" width="100%">
+			<div align="center">
+            <p style="text-transform:uppercase; text-align:center; font-family:Tahoma, Geneva, sans-serif; font-size:20px;">PROMESAS JOHNSON.CL</p>
+			</div>
+        </td>
+    </tr>
+                <tr>
+				<td width="50%">
+                    <div id="contenedor">
+
+<div id="caja1" style="
+    margin-right: 4%;
+    width: 96%;
+    float: left;
+    display: block;">
+<div class="subcaja1" style="
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'azo_l', helvetica, verdana, sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: block;
+    background-color: #f2f2f2;
+    line-height: 17px;">
+<img class="img" src="./images/despacho.png" title="despacho" alt="despacho" width="98%"><br>
+<!-- div style="height:53px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#000000; font-size:20px">DESPACHO</div -->
+&#8226; Ten presente que si compras m&aacute;s de un producto, pueden llegar en fechas y horarios distintos, si tienes dudas ingresa a par&iacute;s.cl y consulta el estado de tu entrega o ll&aacute;manos a nuestro Servicio al Cliente al 600 400 8000, desde celulares al 02 2264 6701.<br /><br />
+&#8226; Recuerda desembalar y revisar el producto al momento que sea entregado. Si no est&aacute;s conforme, rechaza la entrega en la gu&iacute;a de despacho.<br /><br />
+&#8226; Nuestro transporte no puede hacer arreglos o instalaciones de productos, ya que comprometen la garant&iacute;a de estos. Tampoco pueden desarmar puertas, ventanas o modificar los espacios para entregar el producto.<br /><br />
+&#8226; Para el servicio de armado o instalaciones revise la ficha de cada producto en Jhonson.cl o comun&iacute;cate con nuestro Servicio al Cliente al 600 400 8000 o desde celulares al 02 2264 6701.
+<br>
+<br>
+</div>
+<div class="subcaja2" style="
+    padding: 15px;
+    font-family: 'azo_l', helvetica, verdana, sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: block;
+    background-color: #f2f2f2;
+    line-height: 17px;">
+<img class="img" src="./images/devoluciones.png" title="devoluciones" alt="devoluciones" width="98%"><br><br>
+<!-- div style="height:53px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#000000; font-size:20px">DEVOLUCIONES</div -->
+&#8226; Tienes 10 d&iacute;as para anular tu compra desde la fecha de recepci&oacute;n, el producto debe estar en perfecto estado: sin uso, con etiqueta adherida en su embalaje original y con sus accesorios.<br /><br />
+&#8226; Los productos de cuidado personal, colchoner&iacute;a, almohadas, los que requieran armado, aquellos que tengan embalaje pl&aacute;stico termo contraible, refrigeraci&oacute;n, lavado, cocina, secado y los productos copiables como DVD, videojuegos, software, y  gourmet, maquillaje y perfumes, s&oacute;lo se aceptar&aacute;n si est&aacute;n sellados.<br /><br />
+&#8226; Para los casos en que el producto a devolver est&eacute; asociado a regalos promocionales, estos tambi&eacute;n deber&aacute;n ser devueltos.
+</div>
+</div>
+</td>
+<td width="50%">
+<div id="caja2">
+<div class="subcaja1" style="
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family:  helvetica, verdana, sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: block;
+    background-color: #f2f2f2;
+    line-height: 17px;">
+<img class="img" src="./images/cambios.png" title="cambios" alt="cambios" width="98%"><br><br>
+<!-- div style="height:53px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#000000; font-size:20px">CAMBIOS</div -->
+&#8226; Tienes 30 d&iacute;as para cambiarlo desde la fecha de recepci&oacute;n, el producto debe estar en perfecto estado: sin uso, con etiqueta adherida en su embalaje original y con sus accesorios.<br /><br />
+&#8226; Solo debes dirigirte a cualquiera de nuestras tiendas Paris, presentando tu boleta o ticket de cambio  y producto.<br /><br />
+&#8226; En el caso de productos de dif&iacute;cil traslado como refrigeradores, Muebles, Cama, LCD de m&aacute;s de 40", entre otros, te ofrecemos el retiro a domicilio llamando al 600 400 8000 s&oacute;lo costeando el valor del transporte.
+</div>
+<div class="subcaja2" style="
+    padding: 15px;
+    font-family:  helvetica, verdana, sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: block;
+    background-color: #f2f2f2;
+    line-height: 17px;">
+<img class="img" src="./images/garantias.png" title="garantias" alt="garantias" width="98%"><br>
+<!--- div style="height:53px; line-height:53px; font-family:Tahoma,Geneva,sans-serif; font-weight:normal; color:#000000; font-size:20px">GARANTIAS</div -->
+&#8226; Tienes la opci&oacute;n de llevar el producto directamente al Servicio T&eacute;cnico autorizado de la marca, ingresa a nuestra p&aacute;gina Johnson.cl y en Garant&iacute;as encontrar&aacute;s la informaci&oacute;n necesaria o ll&aacute;manos a nuestro Servicio al Cliente al 600 400 8000 o desde celulares al 02 2264 6701.<br /><br />
+&#8226; Tambi&eacute;n puedes presentarte en  Servicio al Cliente  de cualquiera de  nuestras tiendas Paris con el producto  para ser enviado a servicio t&eacute;cnico, podr&aacute;s tener la soluci&oacute;n o respuesta dentro de 15 d&iacute;as h&aacute;biles en Santiago y 20 d&iacute;as h&aacute;biles en regiones. Si el resultado indica que la falla corresponde a deficiencias en la fabricaci&oacute;n no atribuibles a deterioros por un hecho imputable al consumidor, puedes elegir 3 opciones; reparaci&oacute;n, cambio o anulaci&oacute;n.<br /><br />
+&#8226; Si tu producto es de dif&iacute;cil traslado como refrigeradores, Muebles, Camas , LCD de m&aacute;s de 40", entre otros, ll&aacute;manos a nuestro Servicio al Cliente al 600 400 8000 o desde celulares al 02 2264 6701 y te coordinamos una visita t&eacute;cnica a domicilio.<br /><br />
+IMPORTANTE para hacer uso de tu garant&iacute;a siempre debes contar con la boleta o factura de compra.
+</div>
+</div>
+</td>
+</tr>
+ <tr>
+        <td colspan=2><br></td>
+    </tr>
+<tr>
+<td colspan=2>
+<div id="footer" style="
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #f2f2f2;
+    font-family: 'azo_l', helvetica, verdana, sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: block;
+    clear: both;
+    line-height: 17px;">
+<span class="bold" style="font-family:helvetica, verdana, sans-serif; font-size:13px; color:#f27925"><b>Si compraste con Retiro en Tienda</b></span><br />
+Solo debes dirigirte a Servicio al Cliente de cualquiera de nuestras tiendas Paris, presentando tu boleta o factura y producto, para cualesquiera de las acciones presentadas anteriormente.<br /><br />
+<span class="bold" style="font-family:helvetica, verdana, sans-serif; font-size:13px; color:#f27925"><b>Si compraste con Despacho a Domicilio</b></span><br />
+Para cualquiera de las opciones antes presentada, puedes dirigirte a Servicios al Cliente de nuestras tiendas Paris, presentando tu boleta o factura y producto; o en el caso de productos de dif&iacute;cil traslado como refrigeradores, Muebles, Camas , LCD de m&aacute;s de 40", entre otros, te ofrecemos el retiro a domicilio llamando al 600 400 8000 s&oacute;lo costeando el valor del transporte.</div>
+</div>
+				</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </td>
+
+        <td width="33"></td>
+        <td width="48" bgcolor="#CCCCCC"></td>
+    </tr>
+</table>
+
+<!-- inicio footer -->
+<table width="800" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+	<td width="95"  bgcolor="#CCCCCC"></td>
+	<td width="105"></td>
+	<td width="600" height="5" bgcolor="#f27925"></td>
+	<td width="105"></td>
+	<td width="95"  bgcolor="#CCCCCC"></td>
+  </tr>
+  <tr>
+	<td width="95"  bgcolor="#CCCCCC"></td>
+	<td width="105"></td>
+    <td><img src="./images/01conectate.jpg" width="600" height="74" style="display:block; border:none;" /></td>
+	<td width="105"></td>
+	<td width="95"  bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="70"  bgcolor="#CCCCCC"></td>
+	<td width="90"></td>
+    <td width="50" height="90" bgcolor="#FFFFFF">
+      <img src="http://image.contenido.cencosud.cl/lib/fe8b12727d63007c7d/m/2/2015-09-11-moda-footer_02.jpg" width="50" height="90" style="display:block; border:none;" /></td>
+      <td><a href="#"><img src="./images/02facebook.jpg" width="99" height="90" style="display:block; border:none;" /></a></td>
+      <td><a href="#"><img src="./images/03twitter.jpg" width="77" height="90" style="display:block; border:none;" /></a></td>
+      <td><a href="#"><img src="./images/04insta.jpg" width="71" height="90" style="display:block; border:none;" /></a></td>
+      <td><a href="#"><img src="./images/05pint.jpg" width="82" height="90" style="display:block; border:none;" /></a></td>
+      <td><a href="#"><img src="./images/06youtube.jpg" width="82" height="90" style="display:block; border:none;" /></a></td>
+      <td><a href="#"><img src="./images/07google.jpg" width="101" height="90" style="display:block; border:none;" /></a></td>
+      <td width="45" height="90" bgcolor="#FFFFFF"></td>
+      <td width="90"></td>
+	<td width="70"  bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="47"  bgcolor="#CCCCCC"></td>
+	<td width="180"></td>
+  <td><a href="#"><img src="./images/08tiendas.jpg" width="135" height="47" style="display:block; border:none;" /></a></td>
+  <td><img src="./images/09nro.jpg" width="213" height="47" style="display:block; border:none;" /></td>
+	<td width="130"></td>
+	<td width="48"  bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<table width="800" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="47"  bgcolor="#CCCCCC"></td>
+	<td width="200"></td>
+	<td><img src="./images/10derechos.jpg" width="324" height="45" style="display:block; border:none;" /></td>
+	<td width="70"></td>
+	<td width="48"  bgcolor="#CCCCCC"></td>
+  </tr>
+</table>
+<!-- fin footer --->
+
+<table width="800" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td bgcolor="#CCCCCC" height="20" width="800"></td>
+    </tr>
+</table>
+</body>
+</html>
